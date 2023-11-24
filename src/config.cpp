@@ -1,0 +1,18 @@
+#include "config.h"
+
+std::string Config::URL_REPOSITORY = XorStr("MUST_BE_FILLED");
+
+// CHANGE AT BUILD FOR EACH PROJECT
+std::string Config::AES_KEY		   = XorStr("MUST_BE_FILLED");
+std::string Config::AES_IV		   = XorStr("MUST_BE_FILLED");
+std::string Config::API_KEY		   = XorStr("MUST_BE_FILLED");
+
+// TIMING (ms)
+DWORD Config::MEMORY_CHECK_SLEEP			= 15000;
+DWORD Config::WINDOW_CHECK_SLEEP			= 10000;
+DWORD Config::MODULES_CHECK_SLEEP			= 5000;
+DWORD Config::SAMPFUNCS_CHECK_SLEEP			= 30000;
+DWORD Config::DEBUGGER_CHECK_SLEEP			= 2000;
+
+DWORD Config::LONGPOOL_GET_SLEEP			= 1000;
+DWORD Config::ACTIVITY_UPDATE_SLEEP			= 10000;

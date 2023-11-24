@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\game">
+      <UniqueIdentifier>{7229c4aa-01c7-48e3-a107-ddfb49202917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\system">
+      <UniqueIdentifier>{f4dd3ed9-9c61-4a7a-900c-bf0947d5ef1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\util">
+      <UniqueIdentifier>{badb1bcc-6784-4482-833e-13ab586b5e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\game">
+      <UniqueIdentifier>{96306f14-9b71-43dc-a9bf-ba507ef5d476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\system">
+      <UniqueIdentifier>{c4a298ae-aa6f-428a-bad7-57cce659d1a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\util">
+      <UniqueIdentifier>{08c8797d-f33b-41f4-a762-3209eb2c6bd8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\game\sampfuncs.cpp">
+      <Filter>Исходные файлы\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\modules.cpp">
+      <Filter>Исходные файлы\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\game.cpp">
+      <Filter>Исходные файлы\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\cleo_check.cpp">
+      <Filter>Исходные файлы\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\session.cpp">
+      <Filter>Исходные файлы\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\report.cpp">
+      <Filter>Исходные файлы\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\network.cpp">
+      <Filter>Исходные файлы\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\longpool.cpp">
+      <Filter>Исходные файлы\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\core.cpp">
+      <Filter>Исходные файлы\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\window_check.cpp">
+      <Filter>Исходные файлы\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\virtual_machine.cpp">
+      <Filter>Исходные файлы\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\memory_integrity.cpp">
+      <Filter>Исходные файлы\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\hardware.cpp">
+      <Filter>Исходные файлы\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\antidebug.cpp">
+      <Filter>Исходные файлы\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anticheat.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dllmain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="third-party\md5.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="third-party\mine.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\log.cpp">
+      <Filter>Исходные файлы\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\game\sampfuncs.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\modules.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\game.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\cleo_check.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\session.h">
+      <Filter>Файлы заголовков\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\report.h">
+      <Filter>Файлы заголовков\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\network.h">
+      <Filter>Файлы заголовков\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\longpool.h">
+      <Filter>Файлы заголовков\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\core.h">
+      <Filter>Файлы заголовков\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\window_check.h">
+      <Filter>Файлы заголовков\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\virtual_machine.h">
+      <Filter>Файлы заголовков\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\memory_integrity.h">
+      <Filter>Файлы заголовков\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\hardware.h">
+      <Filter>Файлы заголовков\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\antidebug.h">
+      <Filter>Файлы заголовков\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anticheat.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="src\config.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\log.h">
+      <Filter>Файлы заголовков\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
